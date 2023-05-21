@@ -2,7 +2,7 @@ import { footeritems } from "../data"
 
 function Footer() {
   return (
-    <footer className="bg-[#f2f2f2] absolute bottom-0 left-0 right-0 text-[#70757a] text-[.9rem]">
+    <footer className="bg-[#f2f2f2] absolute bottom-0 py-4 md:py-0 left-0 right-0 text-[#70757a] text-[.9rem]">
       <div className="px-4 py-3 md:px-8">
         <span>Rwanda</span>
       </div>
@@ -13,7 +13,7 @@ function Footer() {
             <a className="text-gray-600 hover:underline" href="#" key={i}>{item}</a>
           ))}
         </div>
-        <div className="flex flex-row py-4 gap-3">
+        <div className="flex flex-row md:py-4 gap-3">
           {footeritems.slice(4, footeritems.length).map((item, i)=> (
             <a className="text-gray-600 hover:underline" href="#" key={i}>{item}</a>
           ))}

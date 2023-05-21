@@ -4,11 +4,11 @@ import { AiOutlineSearch } from 'react-icons/ai'
 function Search() {
   return (
     <div className="w-full flex items-center h-[70vh]">
-      <div className="max-w-2xl mx-auto flex-1 flex flex-col items-center gap-6">
+      <div className="max-w-2xl mx-auto flex-1 flex flex-col items-center gap-6 px-4 md:px-0">
         <div>
           <img src={google} alt="" />
         </div>
-        <div className="border border-gray-300 hover:shadow-search-shadow focus:shadow-search-shadow  w-full flex gap-2 items-center py-3 px-6 rounded-full">
+        <div className="border border-gray-300 hover:shadow-search-shadow focus:shadow-search-shadow w-full flex gap-2 items-center py-3 px-6 rounded-full">
           <AiOutlineSearch className="text-[#70757a]" size={20}/>
           <input className="outline-none w-full bg-white" type="text" name="" />
           <div className="flex gap-3">
