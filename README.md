@@ -24,8 +24,8 @@ In this exercise, we will use React and tailwindcss.
 The-gym-stripe-clone
 Users should be able to:
 
-- You have got 4 hours to complete this challenge, so try to reach as much perfection as possible for this challenge!
-- Try to implement the design below, using only React and Tailwindcss,
+- You have got 4 hours, so try to reach as much perfection as possible for this challenge!
+- I've implemented the site below, using only React and Tailwindcss,
 - Use tailwind as much as possible. Only use custom CSS when you absolutely have to. In that case, structure your custom CSS in BEM.
 - When you start the project, immediately create a "development" branch where you will do all your coding,
 
@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL Open [google clone]() with your browser to see the result.
+- Live Site URL Open [google clone](https://gymn-google-clone.vercel.app/) with your browser to see the result.
 
 ## My process
 
