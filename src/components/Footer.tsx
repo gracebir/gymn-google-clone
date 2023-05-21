@@ -7,7 +7,7 @@ function Footer() {
         <span>Rwanda</span>
       </div>
       <hr />
-      <div className="flex flex-col items-center md:justify-between md:flex-row px-4 md:px-8">
+      <div className="flex flex-col gap-4 items-center md:justify-between md:flex-row px-4 md:px-8">
         <div className="flex flex-row py-4 gap-3">
           {footeritems.slice(0, 4).map((item, i)=> (
             <a className="text-gray-600 hover:underline" href="#" key={i}>{item}</a>
