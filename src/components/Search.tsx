@@ -2,7 +2,7 @@ import google from '../assets/google-logo.png'
 
 function Search() {
   return (
-    <div className="w-full border flex items-center h-[70vh]">
+    <div className="w-full flex items-center h-[70vh]">
       <div className="max-w-2xl mx-auto flex-1 flex flex-col items-center gap-6">
         <div>
           <img src={google} alt="" />
@@ -18,11 +18,11 @@ function Search() {
           <button className="px-3 py-2 rounded-md hover:bg-gray-100 hover:shadow-btn-search">Google Search</button>
           <button className="px-3 py-2 rounded-md hover:bg-gray-100 hover:shadow-btn-search">I'm Feeling Lucky</button>
         </div>
-        <div>
-          <p>Google offered in</p>: 
-          <a href="">French</a>
-          <a href="">Swahili</a>
-          <a href="">Kinyamranda</a>
+        <div className="flex flex-row text-sm gap-2">
+          <p className="text-[#4D5156]">Google offered in:</p>
+          <a className="text-[#1a0dab] hover:underline" href="#">French</a>
+          <a className="text-[#1a0dab] hover:underline" href="#">Swahili</a>
+          <a className="text-[#1a0dab] hover:underline" href="#">Kinyamranda</a>
         </div>
       </div>
     </div>
